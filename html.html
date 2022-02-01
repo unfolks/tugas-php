@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/bootstrap-icons.css">
+    <link rel="icon" href="img/neutron.png">
+    <title>Neutrocode - HTML</title>
+</head>
+
+<div class="sticky-top">
+    <h1 class="h1" style="background-color: grey; color: honeydew; text-align: center;"> NeutroCode</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <img src="img/coding.png" alt="" class="navbar-brand" style="width: 5%;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-expanded="false">
+                            Content
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/html.html"><img src="/img/html.png" width="25" height="25"
+                                    class="d-inline-block align-top"> HTML</a>
+
+                            <a class="dropdown-item" href="#"><img src="img/css.png" alt="" width="25" height="25"
+                                    class="d-inline-block align-top"> CSS</a>
+
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">JavaScript</a>
+                            <a class="dropdown-item" href="#">PHP</a>
+                        </div>
+                    </li>
+
+                </ul>
+                <!--<form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>-->
+            </div>
+        </div>
+    </nav>
+</div>
+<section class="container">
+    <h1>Tabel di HTML</h1>
+    <hr>
+    <p style="text-align: right;"><b><em>by unfolk</em></b></p>
+    <h2>Tabel terdiri dai 4 unsur utama:</h2>
+    <ol>
+        <li>Baris</li>
+        <li>Kolom</li>
+        <li>Sel</li>
+        <li>Garis</li>
+    </ol>
+    <p>Tag yang digunakan untuk membuat tabel di HTML</p>
+    <ol type="a">
+        <li>Tag <code>
+                < table>
+            </code> untuk membungkus tabelnya</li>
+        <li>Tag <code>
+                < thead>
+            </code> untuk membungkus bagian kepala tabel</li>
+        <li>Tag <code>
+                < tbody>
+            </code> untuk membungkus bagian body dari Tabel</li>
+        <li>Tag <code>tr</code> (tabel row) untuk membuat baris</li>
+        <li>Tag <code>td</code> (tabel data) untuk membuat sel</li>
+        <li>Tag <code>th</code> (tabel head) untuk membuat judul pada header</li>
+    </ol>
+    <p>Tag yang paling penting dalam membuat tabel adalah <code style="color: red;">table, tr, dan td</code>.
+        Sementara yang lain hanya opsional.</p>
+    <table border="1" cellpadding="10">
+        <tr>
+            <td bgcolor="grey">b1 k1</td>
+            <td>b1 k2</td>
+            <td bgcolor="grey">b1 k3</td>
+        </tr>
+        <tr>
+            <td>b2 k1</td>
+            <td bgcolor="grey">b2 k2</td>
+            <td>b2 k3</td>
+        </tr>
+        <tr>
+            <td bgcolor="grey">b3 k1</td>
+            <td>b3 k2</td>
+            <td bgcolor="grey">b3 k3</td>
+        </tr>
+    </table>
+    <p>Tabel diatas merupakan contoh dari tabel yang sederhana.
+        beberapa atribut yang digunakan yaitu:
+        <ol>
+            <li>Border : untuk memberikan garis pada tabel</li>
+            <li>cellpadding : untuk memberikan jarak antara tulisan dan garis tabel</li>
+            <li>bgcolor : untuk memberikan warna pada tabel (hal ini bisa dilakukan untuk salah satu sel ataupun satu
+                baris kolom)</li>
+        </ol>
+    </p>
+    <h3>Menggabungkan sel tabel</h3>
+    <p>Atribut yang digunakan untuk menggabungkan sel tabel yaitu rowspan dan colspan</p>
+    <ul>
+        <li>rowspan untuk menggabungkan baris</li>
+        <li>colspan untuk menggabungkan kolom</li>
+    </ul>
+    <p>atribut ini bisa kita beri pada tag td atau th</p>
+    <img src="rowspan-colspan.png">
+    <table border="1" cellpadding="10">
+        <tr>
+            <th rowspan="2">nama</th>
+            <th colspan="2">nama orang tua</th>
+        </tr>
+        <tr bgcolor="green">
+            <th>bapak</th>
+            <th>ibu</th>
+        </tr>
+        <tr>
+            <td>budi</td>
+            <td>ilham</td>
+            <td>linda</td>
+        </tr>
+    </table>
+    <p>Tabel diatas merupakan tabel yang sudah saya buat melibatkan atribut rowspan dan colspan.</p>
+    <h3>Menyisipkan elemen lain dalam sel</h3>
+    <p>Kita bisa menyisipkan elemen HTML yang lain seperti gambar, link, video, list, dsb.</p>
+    <p>Elemen HTML bisa kita sisipkan didalam sel td dan th</p>
+    <table border="1" cellpadding=10>
+        <tr>
+            <th colspan="3">absen facebook</th>
+        </tr>
+        <tr>
+            <td rowspan="4">
+                <img src="fb-logo.jpeg" width="50">
+            </td>
+        </tr>
+        <tr>
+            <th>Nama</th>
+            <th>Tanda tangan</th>
+        </tr>
+        <tr>
+            <td>Ahmad</td>
+            <td style="text-align: center;">.....</td>
+        </tr>
+        <tr>
+            <td>Budi</td>
+            <td style="text-align: center;">......</td>
+        </tr>
+    </table>
+</section>
+
+<footer>
+    <p class="h4" style="background-color: grey; color: honeydew; text-align: center;">copyright &copy; 2021
+        Neutrocode</p>
+    <p class="h5" style="background-color: grey; color: honeydew; text-align: center;"><a href="#"
+            class="text-dark stretched-link">Contact</a></p>
+</footer>
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
+</script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+-->
+</body>
+
+</html>

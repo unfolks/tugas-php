@@ -1,0 +1,77 @@
+/* navbar */
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem
+}
+
+.navbar-expand-lg {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030
+}
+
+/* isi navbar */
+
+/*nama brand*/
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+    color: #f89627 !important;
+}
+
+/* logo */
+.d-inline-block {
+    display: inline-block !important
+}
+
+.align-top {
+    vertical-align: top !important
+}
+
+/* menu navbar */
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.ml-auto,
+.mx-auto {
+    margin-left: auto !important
+}
+
+.nav-link {
+    font-family: Viga;
+    margin-right: 20px;
+    font-size: 50px;
+}

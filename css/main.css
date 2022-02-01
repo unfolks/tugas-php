@@ -1,0 +1,445 @@
+.menut .men {
+    position: relative;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: center;
+    color: #C4C9E7;
+    font-family: 'Space Mono', monospace;
+}
+
+body {
+    background-image: url(/img/pro3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 1080px; */
+    margin: 0;
+}
+
+.navbarku .jadul {
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 30px;
+    justify-content: center;
+    white-space: nowrap;
+    color: #C4C9E7;
+    font-family: 'Space Mono', monospace;
+}
+
+
+
+.navbarku {
+    /* background-color: #374756; */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: center;
+}
+
+@media (min-width :992px) {
+    /* .menut .men {
+        position: relative;
+        margin-right: 50px;
+        text-decoration: none;
+        border: #0085FF solid;
+        font-size: 30px;
+        color: #C4C9E7;
+        font-family: 'Space Mono', monospace;
+    } */
+    
+    body {
+        background-image: url(/img/pro3.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* height: 1080px; */
+        margin: 0;
+        /* overflow: hidden; */
+    }
+
+    .navbarku .jadul {
+        display: inline-block;
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        margin-right: 1rem;
+        font-size: 55px;
+        line-height: inherit;
+        white-space: nowrap;
+        color: #C4C9E7;
+        font-family: 'Space Mono', monospace;
+    }
+
+    .navbarku {
+        /* background-color: #464849; */
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding-left: 60px;
+    }
+}
+
+/* halaman 1 */
+
+.mainlob {
+    background-image: url(/img/pro4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    /* height: auto; */
+}
+
+.mainlob .sub-main {
+
+    position: relative;
+    top: 25px;
+    overflow: hidden;
+    /* border-top: orange solid;
+    border-bottom: blue solid;
+    border-left: yellow solid;
+    border-right: purple solid; */
+}
+
+.jumbotron .full {
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: #DBFF00;
+    text-shadow: 5px 5px 100px #FF0101;
+}
+
+.web {
+    color: #C4CEAB;
+}
+
+.sub-main .theway {
+    font-size: 20px;
+    text-align: center;
+    color: #DBFF00;
+}
+
+.grskrs {
+    margin-top: -32px;
+    background: linear-gradient(90deg, #FFD600, #F57F17, #0085FF, #C855FE);
+    height: 1px;
+}
+
+@media (min-width :992px) {
+    .mainlob .sub-main {
+        float: right;
+        position: relative;
+        width: 50%;
+        right: 50px;
+        top: 150px;
+        overflow: hidden;
+        border: none;
+        /* border: #C4C9E7 solid; */
+    }
+
+    .jumbotron .full {
+        text-align: right;
+        font-family: 'Space Mono', monospace;
+        font-size: 100px;
+        color: #C3C9E9;
+        text-shadow: 0px 5px 100px #FF0101;
+    }
+
+    .web {
+        color: #C4CEAB;
+    }
+
+    .sub-main .theway {
+        font-size: 40px;
+        text-align: right;
+        color: #DBFF00;
+    }
+
+    .mainlob {
+        background-image: url(/img/pro4.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 0;
+        right: 0;
+        height: 1080px;
+        /* max-height: max-content; */
+    }
+
+    .grskrs {
+        margin-top: -40px;
+        background: linear-gradient(90deg, #FFD600, #F57F17, #0085FF, #C855FE);
+        height: 10px;
+    }
+
+}
+
+/* halaman 2 */
+
+.gbrneut {
+    text-align: center;
+    width: 20%;
+}
+
+.neut {
+    text-align: center;
+    display: inline-block;
+}
+
+.neuoren {
+    color: orange;
+}
+
+.neubiru {
+    color: blue;
+}
+
+.neukuning {
+    color: yellow;
+}
+
+.neungu {
+    color: purple;
+}
+
+.emblem {
+    font-size: 50px;
+}
+
+.logo {
+    text-align: center;
+    width: 50px;
+}
+
+
+
+.gbrlogo {
+    width: 100%;
+}
+
+.rec7 .gbrrec7 {
+    width: 25%;
+}
+
+
+
+@media (min-width:992px) {
+    .neut {
+        text-align: center;
+    }
+
+    .neuoren {
+        color: orange;
+    }
+
+    .neubiru {
+        color: blue;
+    }
+
+    .neukuning {
+        color: yellow;
+    }
+
+    .neungu {
+        color: purple;
+    }
+
+    .emblem {
+        font-size: 100px;
+    }
+
+    .logo {
+        text-align: center;
+        width: 100%;
+    }
+
+    .gbrlght {
+        position: relative;
+        top: 40px;
+    }
+
+    .gbrlgphp {
+        position: relative;
+        top: 40px;
+    }
+
+    .gbrlogo {
+        position: relative;
+        width: 50%;
+    }
+
+    .logohtml {
+        top: 100px;
+    }
+
+
+}
+
+/* hal3 */
+
+#wiki {
+    background-image: url(/img/Grouphtml.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .9s ease-in-out;
+
+}
+
+#wiki .parawiki {
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+
+@media (min-width:992px) {
+    #wiki {
+        background-image: url(/img/Grouphtml.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: .9s ease-in-out;
+    }
+
+
+
+    #wiki .parawiki {
+        font-family: 'Space Mono', monospace;
+        font-size: 25px;
+        padding-top: 200px;
+        padding-left: 100px;
+        padding-right: 100px;
+        text-align: justify;
+        padding-bottom: 200px;
+        transition: .9s ease-in-out;
+    }
+}
+
+/* footer */
+.foot {
+    margin-top: -15px;
+    padding-bottom: 100px;
+    background-image: url(/img/Rectangle7.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+.foot .bgfoot {
+    padding-top: 50px;
+}
+
+.commun {
+    text-align: center;
+    justify-content: center;
+}
+
+.kalicommun {
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+    color: white;
+}
+
+.logocom {
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    /* border: #DBFF00 solid; */
+    height: auto;
+}
+
+.sublgfoot {
+    width: 20%;
+}
+
+.neut2021 {
+    text-align: center;
+    justify-content: center;
+}
+
+.kalineut2021 {
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    color: white;
+    font-style: oblique;
+}
+
+@media(min-width:992px) {
+    .foot {
+        margin-top: -110px;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        background-image: url(/img/Rectangle7.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+    }
+
+
+
+    .commun {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .kalicommun {
+        font-family: 'Space Mono', monospace;
+        font-size: 35px;
+        color: white;
+    }
+
+    .logocom {
+        text-align: center;
+        padding-left: 35%;
+        padding-right: 35%;
+        /* border: #DBFF00 solid; */
+        height: auto;
+    }
+
+    .sublgfoot {
+        width: 50%;
+    }
+
+    .neut2021 {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .kalineut2021 {
+        font-family: 'Space Mono', monospace;
+        font-size: 25px;
+        color: white;
+        font-style: oblique;
+    }
+}
